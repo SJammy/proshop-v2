@@ -1,0 +1,23 @@
+{
+  "name": "proshop-v2",
+  "version": "2.0.0",
+  "description": "eCommerce App built with MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SJammy/proshop-v2.git"
+  },
+  "author": "SJammy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SJammy/proshop-v2/issues"
+  },
+  "homepage": "https://github.com/SJammy/proshop-v2#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
