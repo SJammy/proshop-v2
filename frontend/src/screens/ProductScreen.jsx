@@ -25,6 +25,7 @@ const ProductScreen = () => {
     error,
   } = useGetProductDetailsQuery(productId)
   
+  console.log(product);
   
   const addToCartHandler = () => {
     // e.preventDefault()
