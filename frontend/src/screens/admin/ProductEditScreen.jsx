@@ -28,7 +28,6 @@ const ProductEditScreen = () => {
     error,
     refetch,
   } = useGetProductDetailsQuery(productId)
-  
 
   const [updateProduct, { isLoading: loadingUpdate }] =
     useUpdateProductMutation()
